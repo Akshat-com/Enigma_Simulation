@@ -15,7 +15,7 @@ machine = EnigmaMachine.from_key_sheet(
 machine.set_display('XYW')
 
 # Your plaintext
-plaintext = "India walks out of Indus Water Treaty, endangering Pak's share of Indus River and it's tributries."
+plaintext = "Sample Plaintext."
 
 # Clean the text (remove punctuation and convert to uppercase)
 clean_plaintext = re.sub(r'[^A-Z]', '', plaintext.upper())
